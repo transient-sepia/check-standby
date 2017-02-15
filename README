@@ -1,0 +1,9 @@
+        check_standby - checks the status of standby databases.
+
+        check_standby.pl [-h] <INSTANCE> <USERNAME> [<WARN>]
+
+        <INSTANCE> - database alias.
+        <USERNAME> - connect with the specified user.
+        <WARN>     - defines the warning number of minutes for database apply lag (optional).
+
+        -h - print this message
